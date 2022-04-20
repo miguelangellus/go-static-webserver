@@ -6,6 +6,6 @@ COPY . .
 
 RUN GOOS=linux go build main.go
 
-EXPOSE 8089
+EXPOSE 8080
 
 ENTRYPOINT ["./main"]
